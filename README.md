@@ -104,4 +104,3 @@ npm run dev
 * [MySQL](https://www.mysql.com/)
 * [Express](https://expressjs.com/es/)
 * [Handlebars](https://handlebarsjs.com/)
-# links-app-mysql
