@@ -9,7 +9,6 @@ passport.use('local-singin', new Strategy({
   passReqToCallback: true
 }, async (req, username, password, done) => {
   const rows = await pool.query("SELECT * FROM users WHERE username = ?", [ username ]);
-  console.log(rows)
   if (rows.length > 0) {
     const user = rows[0];
     const validPassword = await helpers.comparePassword(password, user.password);

@@ -24,8 +24,7 @@ router.post('/add', function (req, res, next) {
     title,
     url,
     description,
-    user_id: req.user.id,
-    created_at: Date.now()
+    user_id: req.user.id
   };
 
   await pool.query("INSERT INTO links set ?", [ newLink ])
