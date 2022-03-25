@@ -3,6 +3,8 @@
 ## Comenzando 🚀
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
+![](docs/Screenshot_2022-03-24_23-09-55.png)
+
 ### Pre-requisitos
 Cosas que necesitas para instalar el software
 

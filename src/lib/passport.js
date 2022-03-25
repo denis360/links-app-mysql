@@ -1,7 +1,7 @@
 const passport = require('passport');
 const Strategy = require('passport-local').Strategy;
-const pool = require("../database.js")
-const helpers = require('../lib/helpers.js')
+const pool = require("../database.js");
+const helpers = require('../lib/helpers.js');
 
 passport.use('local-singin', new Strategy({
   usernameField: 'username',
